@@ -2,6 +2,7 @@ package cn.martind;
 
 public class Main {
     public static void main(String[] args) {
+        // System.out.println("hello world");
         int[] nums1 = {1,2};
         int[] nums2 = {3,4};
         double ans = new Main().findMedianSortedArrays(nums1,nums2);
