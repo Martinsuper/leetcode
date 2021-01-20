@@ -6,6 +6,10 @@ import (
 )
 
 func main() {
-	var strs = [...]string{"a"}
-	fmt.Println(easy.LongestCommonPrefix(strs[:]))
+	// test := list.New()
+	// test.PushBack(1)
+	// test.PushBack(2)
+	// test.Remove(test.Back())
+	// fmt.Println(test.Len())
+	fmt.Println(easy.IsValid("[](){}"))
 }
